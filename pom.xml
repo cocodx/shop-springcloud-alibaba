@@ -8,6 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>shop-utils</module>
+        <module>shop-bean</module>
     </modules>
     <packaging>pom</packaging>
     <description>
