@@ -10,6 +10,7 @@
         <module>shop-utils</module>
         <module>shop-bean</module>
         <module>shop-user</module>
+        <module>shop-product</module>
     </modules>
     <packaging>pom</packaging>
     <description>

@@ -3,6 +3,9 @@ package com.liugang.alibabacloud.id;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+/**
+ * 用一个工厂类，把雪花数类缓存在ConcurrentHashMap里面，去调用，享元模式。避免不断的去new对象
+ */
 public class SnowFlakeFactory {
 
     /**
